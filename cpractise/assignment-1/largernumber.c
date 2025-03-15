@@ -8,7 +8,7 @@ void main()
 		printf("The largest number is:%d");
 	else if(b>=c&&b>=a)
 		printf("The largest number is:%d");
-	else if(c>=a&&c>=b)
+	else 
 		printf("The largest number is:%d");
 }
 
