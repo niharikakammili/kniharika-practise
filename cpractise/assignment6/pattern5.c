@@ -16,7 +16,7 @@ int main()
 			}
 			else
 			{
-				printf(" *");
+				printf("*  ");
 				//k--;
 			}
 		}
