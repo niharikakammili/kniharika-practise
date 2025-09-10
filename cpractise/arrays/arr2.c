@@ -19,8 +19,7 @@ int main()
    for (i = n - 1; i >= 0; i--)
    {
        printf("% 5d", a[i]);
-   }
-   printf("\n\n");
+   } printf("\n\n");
    return 0;
 }
 

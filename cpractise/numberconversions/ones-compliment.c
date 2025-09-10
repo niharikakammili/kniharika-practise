@@ -7,7 +7,7 @@ int main()
 
 	
 	onescompliment=~num;
-	printf("onescompliment is%d",onescompliment);
+	printf("onescompliment is%b",onescompliment);
 	return 0;
 }
 

@@ -12,7 +12,7 @@ int main()
                 }
                 for(j=1;j<=i;j++)
                 {
-                        if( j==i || j==1)
+                        if(i==n|| i==j || j==1|| j==(i/2))
                         {
                                 printf("* ");
                         }
@@ -26,7 +26,7 @@ int main()
 
 
         }
-        
+
         for(i=n-1;i>0;i--)
         {
                 for(k=1;k<=n-i;k++)
@@ -36,7 +36,7 @@ int main()
                 }
                 for(j=1;j<=i;j++)
                 {
-                        if( j==1 || j==i)
+                        if(i==n|| j==1 || j==i|| j==(i/2))
                         {
                                 printf("* ");
                         }

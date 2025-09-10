@@ -20,8 +20,8 @@ int main()
 	{
 		*(ptr2+i)=*(ptr1+i);
 	}
-	ptr1=&arr1;
-        ptr2=&arr2;
+	//ptr1=&arr1;
+        //ptr2=&arr2;
 
 	for(i=0;i<n;i++)
 	{
