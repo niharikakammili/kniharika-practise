@@ -1,2 +1,0 @@
-# kniharika-practise
-practise 
