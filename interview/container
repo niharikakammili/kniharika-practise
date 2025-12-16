@@ -1,0 +1,30 @@
+--> create a container 
+     mkdir container
+     cd container
+
+-->write a hello.c file
+      vim hello.c
+      write hello.c program here
+
+-->then create a Dockerfile
+     in that file write the bellowed commnds
+    FROM ubuntu:20.04
+
+   WORKDIR /app
+
+   RUN apt update && apt install -y gcc
+
+   COPY hello.c .
+
+   RUN gcc hello.c -o hello
+
+   CMD ["./hello"]
+
+-->then build image
+    
+    sudo docker build -t hello_c_image
+
+
+-->run container
+  
+     sudo docker run hello_c_image
