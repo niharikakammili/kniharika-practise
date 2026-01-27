@@ -1,0 +1,6 @@
+1. --> did the flashing of led by suing gpio
+
+2. -->red the i2c in detai and wrote the functions in the program and check the functionalities of those functions
+
+
+
