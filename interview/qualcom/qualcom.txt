@@ -3,4 +3,11 @@
 2. -->red the i2c in detai and wrote the functions in the program and check the functionalities of those functions
 
 
+day 2 :
+
+1 --> I worked on dht11 sensor 
+2 --> displaying the temperature and humidity data on the terminal 
+3 -->i worked on eclipse but i wont work then i did in the terminal and buld the code and flash into the qualcom board
+     then displaying the real time temperature and humidity
+4--> gone through the code and understood the code
 
