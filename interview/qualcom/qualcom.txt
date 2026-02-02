@@ -11,3 +11,11 @@ day 2 :
      then displaying the real time temperature and humidity
 4--> gone through the code and understood the code
 
+
+day 3 :
+
+1 -->today i worked on stm32 micro controller
+2 -->also with OLED display and understood the pins wich communication it supports
+3 -->with this two i have printed a hello msg on the OLED display
+4 -->and also tried displaying dht11 sensor data on the OLED display
+
