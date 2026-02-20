@@ -1,0 +1,5 @@
+1. did the u-boot by using yocto
+2.by clonig the git link form the u-boot github and cloning the source code
+3.after that writing the bb file for u boot and build the targets
+4.after will see the files
+
