@@ -1,20 +1,18 @@
 #include<stdio.h>
 int main()
 {
-	int arr[100],i,n;
-	printf("enter the number of elements\n");
-	scanf("%d",&n);
-	for(i=0;i<n;i++)
+	int arr[]={1,2,3,4};
+	int n=4;
+	int i,temp;
+	for( i=0;i<n/2;i++)
 	{
-		scanf("%d",&arr[i]);
+		temp=arr[i];
+		arr[i]=arr[n-i-1];
+		arr[n-i-1]=temp;
 	}
 	for(i=0;i<n;i++)
 	{
 		printf("%d",arr[i]);
-	}
-	for(i=n-1;i>=0;i--)
-	{
-		printf("%d\n",arr[i]);
 	}
 	return 0;
 }
